@@ -1,5 +1,6 @@
 const httpServer = require('http').createServer()
 const socketIO = require('socket.io')(httpServer)
+  console.log("hello");
 
 socketIO.on('connection', function (client) {
   console.log('Connected...', client.id);
