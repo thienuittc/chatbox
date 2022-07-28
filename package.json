@@ -1,0 +1,23 @@
+{
+  "name": "chatbox_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thienuittc/chatbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thienuittc/chatbox/issues"
+  },
+  "homepage": "https://github.com/thienuittc/chatbox#readme",
+  "dependencies": {
+    "http": "^0.0.1-security",
+    "socket.io": "^4.5.1"
+  }
+}
